@@ -3,6 +3,7 @@ import styles from '../styles/header.module.css';
 import logo from '../assets/images/stack-of-books.png';
 import closeIcon from '../assets/images/icon-close.svg';
 import hamburgerIcon from '../assets/images/icon-hamburger.svg';
+import MobileMenu from './MobileMenu';
 
 function Header({isMobile}) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,6 +27,7 @@ function Header({isMobile}) {
                 alt={isMenuOpen? "close menu icon": "open menu icon"}
               />
             </button>
+            <MobileMenu isMenuOpen={isMenuOpen}/>
           </>
         }
       </div>
