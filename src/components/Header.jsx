@@ -17,12 +17,10 @@ function Header({isMobile}) {
         {isMobile && 
           <>
             <button 
-              className='toggle_menu'
               aria-label='toggle menu button'
               onClick={openMenu}
             >
               <img 
-                className='icon'
                 src={isMenuOpen ? closeIcon : hamburgerIcon}
                 alt={isMenuOpen? "close menu icon": "open menu icon"}
               />
@@ -31,6 +29,7 @@ function Header({isMobile}) {
           </>
         }
       </div>
+      <h1>Meet your next favorite book!</h1>
     </header>
   )
 }

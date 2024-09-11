@@ -54,3 +54,12 @@
   cursor: pointer;
   transform: scale(1.1);
 }
+h1 {
+  padding: 1rem;
+  color: #001f3f;
+  border: 1px solid white;
+  border-radius: .25rem;
+  text-align: center;
+  margin-top: 10rem;
+  background-color: rgba(248, 248, 248, .5);
+}
