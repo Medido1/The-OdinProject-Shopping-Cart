@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Main from './components/Main';
 import {useEffect, useState} from "react";
 
 function App() {
@@ -14,7 +15,10 @@ function App() {
     }
   }, [])
   return (
-    <Header isMobile={isMobile}/>
+    <>
+      <Header isMobile={isMobile}/>
+      <Main />
+    </>
   )
 }
 

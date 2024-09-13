@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from '../styles/header.module.css';
-import logo from '../assets/images/stack-of-books.png';
+import logo from '../assets/images/clothes-hanger.png';
 import closeIcon from '../assets/images/icon-close.svg';
 import hamburgerIcon from '../assets/images/icon-hamburger.svg';
 import cartIcon from '../assets/images/shopping-cart.png';
@@ -33,7 +33,7 @@ function Header({isMobile}) {
           <MobileMenu isMenuOpen={true}/>
         }
       </div>
-      <h1>Meet your next favorite book!</h1>
+      <h1>"Shop stylish and affordable men's clothing for every occasion."</h1>
       <div className={styles.cart_container}>
         <h2>Your cart</h2>
         <div className={styles.flex_grp}>
