@@ -1,0 +1,47 @@
+.btn {
+  color: white;
+}
+
+.main {
+  padding: 1.25rem;
+  background-color: rgb(209, 209, 209);
+}
+
+.item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: .5rem;
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.img {
+  max-height: 300px;
+  max-width: 200px;
+}
+.price {
+  font-size: 1.25rem;
+}
+.flexGrp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.rating {
+  display: flex;
+  gap: .25rem;
+}
+.star {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(255, 215, 0, .8);
+  clip-path: 
+  polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+
+
